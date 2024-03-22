@@ -46,3 +46,9 @@ wc -l $(find . -type f -name '*.py' -o -name '*.c' -o -name '*.h') | tail -1
 find . -type f -name '*.clang-format'
 
 ```
+# 5
+```
+cd /usr/src
+/usr/src$ ls . | wc -l
+4
+```
