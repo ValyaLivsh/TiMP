@@ -3,8 +3,8 @@
 # Have you ever wanted to inference a baby Llama 2 model in pure C? No? Well, now you can!
 # 1 
 ```
-find . -type f | wc -l
-51
+ls . | wc -l
+23
 ```
 # 2
 ```
