@@ -41,3 +41,8 @@ du -a -h --max-depth=1 | sort -hr
 wc -l $(find . -type f -name '*.py' -o -name '*.c' -o -name '*.h') | tail -1  
   4225 total
 ```
+# 4
+```
+find . -type f -name '*.clang-format'
+
+```
