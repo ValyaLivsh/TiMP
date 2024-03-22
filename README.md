@@ -59,3 +59,10 @@ grep: ./tokenizer.model: binary file matches
 grep: ./tokenizer.bin: binary file matches
 0
 ```
+# 7 
+```
+grep -irm 1 select . | wc -l
+grep: ./tokenizer.model: binary file matches
+grep: ./tokenizer.bin: binary file matches
+2
+```
