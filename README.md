@@ -36,3 +36,8 @@ du -a -h --max-depth=1 | sort -hr
 4,0K	./configurator.py
 4,0K	./build_msvc.bat
 ```
+# 3 
+```
+wc -l $(find . -type f -name '*.py' -o -name '*.c' -o -name '*.h') | tail -1  
+  4225 total
+```
