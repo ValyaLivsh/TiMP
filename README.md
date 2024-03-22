@@ -226,3 +226,8 @@ runq.c:0
 requirements.txt:0
 model.py:0
 .github/workflows/build.yml:0
+# 9
+```
+readlink -f LICENSE
+/home/valya/llama2.c/LICENSE
+```
