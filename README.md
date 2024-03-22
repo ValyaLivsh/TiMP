@@ -34,5 +34,5 @@ du -a -h --max-depth=1 | sort -hr
 4,0K	./Makefile
 4,0K	./LICENSE
 4,0K	./configurator.py
-```
 4,0K	./build_msvc.bat
+```
