@@ -52,3 +52,10 @@ cd /usr/src
 /usr/src$ ls . | wc -l
 4
 ```
+# 6 
+```
+grep -irm 1 socket . | wc -l
+grep: ./tokenizer.model: binary file matches
+grep: ./tokenizer.bin: binary file matches
+0
+```
