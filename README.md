@@ -8,7 +8,80 @@ ls . | wc -l
 ```
 # 4. Объём всех файлов
 ```
-
+du -h -a /home/valya/llama2.c
+4,0K	/home/valya/llama2.c/doc/stories260K.md
+4,0K	/home/valya/llama2.c/doc/train_llama_tokenizer.md
+12K	/home/valya/llama2.c/doc
+4,0K	/home/valya/llama2.c/run.ipynb
+12K	/home/valya/llama2.c/tinystories.py
+4,0K	/home/valya/llama2.c/test.c
+184K	/home/valya/llama2.c/assets/llama_cute.jpg
+188K	/home/valya/llama2.c/assets
+492K	/home/valya/llama2.c/tokenizer.model
+4,0K	/home/valya/llama2.c/Makefile
+424K	/home/valya/llama2.c/tokenizer.bin
+4,0K	/home/valya/llama2.c/win.h
+4,0K	/home/valya/llama2.c/test_all.py
+4,0K	/home/valya/llama2.c/.git/refs/tags
+4,0K	/home/valya/llama2.c/.git/refs/heads/master
+8,0K	/home/valya/llama2.c/.git/refs/heads
+4,0K	/home/valya/llama2.c/.git/refs/remotes/origin/HEAD
+8,0K	/home/valya/llama2.c/.git/refs/remotes/origin
+12K	/home/valya/llama2.c/.git/refs/remotes
+28K	/home/valya/llama2.c/.git/refs
+4,0K	/home/valya/llama2.c/.git/info/exclude
+8,0K	/home/valya/llama2.c/.git/info
+4,0K	/home/valya/llama2.c/.git/logs/refs/heads/master
+8,0K	/home/valya/llama2.c/.git/logs/refs/heads
+4,0K	/home/valya/llama2.c/.git/logs/refs/remotes/origin/HEAD
+8,0K	/home/valya/llama2.c/.git/logs/refs/remotes/origin
+12K	/home/valya/llama2.c/.git/logs/refs/remotes
+24K	/home/valya/llama2.c/.git/logs/refs
+4,0K	/home/valya/llama2.c/.git/logs/HEAD
+32K	/home/valya/llama2.c/.git/logs
+4,0K	/home/valya/llama2.c/.git/objects/info
+1,3M	/home/valya/llama2.c/.git/objects/pack/pack-6d0bd05dad82d25faa130ce00cbfef550ea5add4.pack
+44K	/home/valya/llama2.c/.git/objects/pack/pack-6d0bd05dad82d25faa130ce00cbfef550ea5add4.idx
+1,3M	/home/valya/llama2.c/.git/objects/pack
+1,3M	/home/valya/llama2.c/.git/objects
+4,0K	/home/valya/llama2.c/.git/packed-refs
+4,0K	/home/valya/llama2.c/.git/branches
+4,0K	/home/valya/llama2.c/.git/config
+8,0K	/home/valya/llama2.c/.git/hooks/pre-rebase.sample
+4,0K	/home/valya/llama2.c/.git/hooks/commit-msg.sample
+4,0K	/home/valya/llama2.c/.git/hooks/pre-applypatch.sample
+4,0K	/home/valya/llama2.c/.git/hooks/post-update.sample
+4,0K	/home/valya/llama2.c/.git/hooks/pre-commit.sample
+4,0K	/home/valya/llama2.c/.git/hooks/applypatch-msg.sample
+4,0K	/home/valya/llama2.c/.git/hooks/push-to-checkout.sample
+4,0K	/home/valya/llama2.c/.git/hooks/update.sample
+4,0K	/home/valya/llama2.c/.git/hooks/pre-push.sample
+4,0K	/home/valya/llama2.c/.git/hooks/pre-merge-commit.sample
+8,0K	/home/valya/llama2.c/.git/hooks/fsmonitor-watchman.sample
+4,0K	/home/valya/llama2.c/.git/hooks/prepare-commit-msg.sample
+4,0K	/home/valya/llama2.c/.git/hooks/pre-receive.sample
+64K	/home/valya/llama2.c/.git/hooks
+4,0K	/home/valya/llama2.c/.git/description
+4,0K	/home/valya/llama2.c/.git/index
+4,0K	/home/valya/llama2.c/.git/HEAD
+1,5M	/home/valya/llama2.c/.git
+40K	/home/valya/llama2.c/run.c
+4,0K	/home/valya/llama2.c/sample.py
+36K	/home/valya/llama2.c/README.md
+16K	/home/valya/llama2.c/train.py
+4,0K	/home/valya/llama2.c/LICENSE
+24K	/home/valya/llama2.c/export.py
+4,0K	/home/valya/llama2.c/build_msvc.bat
+8,0K	/home/valya/llama2.c/win.c
+4,0K	/home/valya/llama2.c/configurator.py
+4,0K	/home/valya/llama2.c/tokenizer.py
+44K	/home/valya/llama2.c/runq.c
+4,0K	/home/valya/llama2.c/requirements.txt
+16K	/home/valya/llama2.c/model.py
+8,0K	/home/valya/llama2.c/.github/workflows/build.yml
+12K	/home/valya/llama2.c/.github/workflows
+16K	/home/valya/llama2.c/.github
+2,8M	/home/valya/llama2.c
 ```
 # 5. Объём исходного кода
 ```
