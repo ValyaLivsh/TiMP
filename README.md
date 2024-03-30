@@ -276,6 +276,6 @@ model.py:0
 ```
 # 11. Найти расположение файла LICENSE относительно начала репозитория
 ```
-readlink -f LICENSE
-/home/valya/llama2.c/LICENSE
+git ls-files --full-name LICENSE
+LICENSE
 ```
