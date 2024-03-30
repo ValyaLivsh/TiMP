@@ -279,3 +279,21 @@ model.py:0
 git ls-files --full-name LICENSE
 LICENSE
 ```
+# 12. Вывести строку для файла LICENSE (если он есть), содержащую следующие подпоследовательности символов: BSD, GNU, MIT, APSL, Apache, GPL, AGPL, LGPL
+```
+grep -rn "BSD\|GNU\|MIT\|APSL\|Apache\|GPL\|AGPL\|LGPL" .
+grep: ./tokenizer.model: binary file matches
+grep: ./tokenizer.bin: binary file matches
+./.git/hooks/prepare-commit-msg.sample:23:COMMIT_MSG_FILE=$1
+./.git/hooks/prepare-commit-msg.sample:24:COMMIT_SOURCE=$2
+./.git/hooks/prepare-commit-msg.sample:27:/usr/bin/perl -i.bak -ne 'print unless(m/^. Please enter the commit message/..m/^#$/)' "$COMMIT_MSG_FILE"
+./.git/hooks/prepare-commit-msg.sample:29:# case "$COMMIT_SOURCE,$SHA1" in
+./.git/hooks/prepare-commit-msg.sample:33:# 	 if /^#/ && $first++ == 0' "$COMMIT_MSG_FILE" ;;
+./.git/hooks/prepare-commit-msg.sample:37:# SOB=$(git var GIT_COMMITTER_IDENT | sed -n 's/^\(.*>\).*$/Signed-off-by: \1/p')
+./.git/hooks/prepare-commit-msg.sample:38:# git interpret-trailers --in-place --trailer "$SOB" "$COMMIT_MSG_FILE"
+./.git/hooks/prepare-commit-msg.sample:39:# if test -z "$COMMIT_SOURCE"
+./.git/hooks/prepare-commit-msg.sample:41:#   /usr/bin/perl -i.bak -pe 'print "\n" if !$first_line++' "$COMMIT_MSG_FILE"
+./README.md:412:MIT
+./LICENSE:1:MIT License
+./LICENSE:16:IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+```
