@@ -1,12 +1,12 @@
 # TiMP
 # RK1 - Llama2
 # Have you ever wanted to inference a baby Llama 2 model in pure C? No? Well, now you can!
-# 1 
+# 3. Количество файлов 
 ```
 ls . | wc -l
 23
 ```
-# 2
+# 4. Объём всех файлов
 ```
 du -a -h --max-depth=1 | sort -hr
 2,8M	.
@@ -36,37 +36,37 @@ du -a -h --max-depth=1 | sort -hr
 4,0K	./configurator.py
 4,0K	./build_msvc.bat
 ```
-# 3 
+# 5. Объём исходного кода
 ```
 wc -l $(find . -type f -name '*.py' -o -name '*.c' -o -name '*.h') | tail -1  
   4225 total
 ```
-# 4
+# 6. Найти, если есть файл .clang-format
 ```
 find . -type f -name '*.clang-format'
 
 ```
-# 5
+# 7. Если есть файл src, общее количество файлов в каталоге src
 ```
 cd /usr/src
 /usr/src$ ls . | wc -l
 4
 ```
-# 6 
+# 8. Выписать количество файлов, содержащих слово socket 
 ```
 grep -irm 1 socket . | wc -l
 grep: ./tokenizer.model: binary file matches
 grep: ./tokenizer.bin: binary file matches
 0
 ```
-# 7 
+# 9. Выписать количество файлов содержащих слово select
 ```
 grep -irm 1 select . | wc -l
 grep: ./tokenizer.model: binary file matches
 grep: ./tokenizer.bin: binary file matches
 2
 ```
-# 8
+# 10. Выписать количество раз, сколько содержится слово Microsoft, Google или Intel во всех файлах репозитория 
 ```
 grep -c -R 'microsoft'
 doc/stories260K.md:0
@@ -227,7 +227,7 @@ requirements.txt:0
 model.py:0
 .github/workflows/build.yml:0
 ```
-# 9
+# 11. Найти расположение файла LICENSE относительно начала репозитория
 ```
 readlink -f LICENSE
 /home/valya/llama2.c/LICENSE
